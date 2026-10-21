@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Battambong";
+    src: url('../fonts/Battambang/Battambang-Regular.ttf');
+}
+@font-face {
+    font-family: "Koulen";
+    src: url(../fonts/Koulen/Koulen-Regular.ttf);
+}
+@font-face {
+    font-family: "OpenSanRegular";
+    src: url('../fonts/Google_Sans/static/GoogleSans-Regular.ttf');
+}
+@font-face {
+    font-family: "OpenSemiBold";
+    src: url(../fonts/Google_Sans/static/GoogleSans-SemiBold.ttf);
+}
+h1,h2,h3,h4,h5,h6,.nav-bar{
+    font-family: "Koulen","OpenSemiBold";
+    color: rgb(130, 130, 250);
+}
+body{
+    font-family: "Battambang","OpenSemiBold";
+}
+.nav-link:hover{
+    color:aquamarine;
+    scale: 1.3s;
+    transition: 1s;
+}
+.cate_card{
+    padding: 15px;
+}
+.cate_card img{
+    height: 84px;
+    object-fit: contain;
+}
+.cate_card img:hover{
+    scale:1.1;
+    transition: 1s;
+}
